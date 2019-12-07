@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/houndstooth-pattern.png");
+    background-repeat: repeat;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height:28px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+#masthead {
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
+    margin: 0 0 40px;
+    z-index: 99;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.headercontainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.myname {
+    width: 250px;
+    height: 98px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.divheading {
+    width: 98%;
+    height: 90px;
+    line-height: 90px;
+    text-align: left;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom:6px;
+}
+
+nav {
+    float:right;
+    margin-top: 25px;
+}
+
+.navbar {
+    border-left: solid 1px #efefef;
+    color: #777777;
+    margin-left: 15px;
+    padding-left: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar:first-child {
+    border-left: 0 none;
+}
+
+.content-area {
+    max-width: 960px;
+    margin: 150px auto;
+    border: solid 1px #cccccc;
+    background-color: #ffffff;
+    padding: 10px;
+    min-height: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+.profpic {
+    float:left;
+    margin-right: 10px;
+}
+
+.work {
+    height:220px;
+    width: 300px;
+    overflow: auto;
+    float: left;
+    margin:10px;
+    position: relative;
+}
+
+.work img {
+opacity: .8;
+}
+
+.work h3 {
+    border-bottom: 0;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom:30px;
+    padding: 10px;
+    width: 200px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#contactform ul {
+    margin-bottom: 20px;
+}
+
+#contactform li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+}
+
+p {
+    text-indent:40px;
+}
+
+/* Bonus Stuff */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.footer, .push {
+    height: 100px;
+}
+
+a:hover {
+    color: #4aaaa5;
+    font-weight:800;
+}
+
+

@@ -216,10 +216,10 @@ nav {
 #maincontainer {
     width: 500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .content-area {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .profpic {
     float: none;

@@ -199,21 +199,49 @@ a:hover {
 /* Responsiveness */
 @media screen and (max-width: 640px) {
 body {
-    font-size: 32px;
+    
 }
 #masthead {
     position: static;
+    height: 160px;
+    margin-bottom: 0;
+}
+nav {
+    width: 100%;
+    text-align: center;
+}
+.myname {
+    width: 100%;
+}
+#maincontainer {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.content-area {
+    margin-top: 25px;
+}
+.profpic {
+    float: none;
+    height: 350px;
+    width: 350px;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bio {
+    font-size: 20px;
 }
 }
 
 @media screen and (max-width: 768px) {
 body {
-    font-size: 44px;
+    
 }
 }
 
 @media screen and (max-width: 980px) {
 body {
-    font-size: 99px;
+    
 }
 }

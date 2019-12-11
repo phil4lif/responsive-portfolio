@@ -232,8 +232,18 @@ nav {
 .bio {
     font-size: 20px;
 }
+
+.work {
+    float: none;
+    margin: auto;
+    height:220px;
+    width:200px;
 }
 
+.portpic {
+    widows: 300px;
+}
+}
 @media screen and (max-width: 768px) {
 body {
     

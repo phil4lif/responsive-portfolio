@@ -220,6 +220,7 @@ nav {
 }
 .content-area {
     margin-top: 10px;
+    width: 500px;
 }
 .profpic {
     float: none;
@@ -239,18 +240,31 @@ nav {
     height:220px;
     width:200px;
 }
+}
 
-.portpic {
-    widows: 300px;
-}
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 641px) {
 body {
     
 }
+#maincontainer {
+    width: 700px;
+    margin: auto;
+    margin-top: 150px;
+}
+.content-area {
+    margin-top: 150px;
+    width: 700px;
+}
+.bio {
+    font-size: 24px;
+}
+.work {
+    width: 240px;
+    margin-left:80px;
+}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
 body {
     
 }

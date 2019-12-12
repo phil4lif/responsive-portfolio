@@ -286,3 +286,12 @@ body {
     margin-left: 50px;
 }
 }
+
+/* Bonus Animation section */
+.myname, a {
+   -webkit-transition: background-color 2s;
+}
+
+.myname:hover, a:hover {
+    background-color: black;
+}

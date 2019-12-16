@@ -33,6 +33,7 @@ h1, h2, h3 {
     max-width: 960px;
     margin: 0 auto;
 }
+
 .myname {
     width: 250px;
     height: 98px;
@@ -247,17 +248,25 @@ body {
     
 }
 #maincontainer {
-    width: 700px;
+    width: 600px;
     margin: auto;
     margin-top: 150px;
 }
 .content-area {
     margin-top: 150px;
-    width: 700px;
+    width: 600px;
 }
 .bio {
-    font-size: 24px;
+    font-size: 20px;
 }
+ .myname {
+     width: 200px;
+ }
+.navbar {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
 .work {
     width: 240px;
     margin-left:80px;
